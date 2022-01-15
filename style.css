@@ -242,7 +242,7 @@ margin-top: 20px;
        
     }
     .right-side-nev ul{
-        flex-direction: row;
+        flex-direction: column;
     }
     .top-article{
         display: grid;
@@ -301,7 +301,7 @@ margin-top: 20px;
     
     }
     }
-    @media  only screen and (min-width:488px) and (max-width:790px){
+    @media  only screen and (min-width:488px) and (max-width:700px){
         body{
             overflow-X:hidden;
            }
@@ -352,13 +352,14 @@ margin-top: 20px;
                 color: #E02C6DDE;
                 display: inline-block;
                 position: relative;
-                left: 300px;
+                left: 290px;
                 font-weight: 600;
                 font-size: 13px;
             }
             .products{
                 display: grid;
                 grid-template-columns: repeat(2,1fr);
+                justify-content: center;
                 align-items: center;
                 margin-top: 60px;
             }
