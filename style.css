@@ -168,3 +168,46 @@ margin-top: 20px;
 /* --------------------------
          collection end
 ------------------------------- */
+/* ----------------------
+        mare link start
+ -------------------------*/
+.more-option{
+    border: 1px solid #ffffff;
+    margin-top: 38px;
+    text-decoration: none;
+    color: #E02C6DDE;
+    display: inline-block;
+    position: relative;
+    left: 850px;
+    font-weight: 600;
+    font-size: 13px;
+    
+}
+.ok{
+    margin-top: 2px;
+}
+
+ /*-------------------------
+         mare link end
+ ---------------------------*/
+ /* -------------------------
+    Featured-products start
+ ---------------------------- */
+ .Featured-products{
+    margin-left: 70px;
+    margin-right: 70px;
+ }
+.products{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.products-img img{
+    width: 400px;
+   height: 250px;
+   border-radius: 20px;
+
+}
+ /*-----------------------------
+        Featured-products end
+ -------------------------------*/
