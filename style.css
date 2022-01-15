@@ -242,7 +242,7 @@ margin-top: 20px;
        
     }
     .right-side-nev ul{
-        flex-direction: column;
+        flex-direction:row;
     }
     .top-article{
         display: grid;
@@ -352,13 +352,13 @@ margin-top: 20px;
                 color: #E02C6DDE;
                 display: inline-block;
                 position: relative;
-                left: 290px;
+                left: 550px;
                 font-weight: 600;
                 font-size: 13px;
             }
             .products{
                 display: grid;
-                grid-template-columns: repeat(2,1fr);
+                grid-template-columns: repeat(1,1fr);
                 justify-content: center;
                 align-items: center;
                 margin-top: 60px;
