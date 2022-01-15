@@ -4,7 +4,8 @@ padding: 0;
 }
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald&family=Poppins:wght@400;500;700&family=Roboto+Mono:wght@400;500&family=Vujahday+Script&display=swap');
 body{
-    font-family: 'Roboto Mono', monospace; 
+    font-family: 'Roboto Mono', monospace;
+    overflow-X:hidden;
 }
 /* -------------------
 navigation area start
@@ -49,7 +50,6 @@ navigation area end
     font-size: 40px;
     color: 
     #3A3A3A;
-   
 }
 .top-article-description p{
     line-height: 22px;
@@ -74,12 +74,10 @@ margin-top: 20px;
     margin-left: 3px;
     margin-top: 32px;
     padding: 10px;
-
 }
 /* --------------------
            to top end 
 -------------------------*/
-
 .top-journey-area .new-marketplace-icon{
     margin-left: 70px;
     margin-right: 70px;
@@ -87,8 +85,6 @@ margin-top: 20px;
 /* ----------------------
      marketplace-icon start
  -------------------------*/
-
-
 .all-marketplace-icon{
     display: flex;
     margin-top: 50px;
@@ -97,13 +93,11 @@ margin-top: 20px;
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
-
 }
 .all-marketplace-icon img{
     padding: 10px;
 
 }
-
  /* -------------------------
        marketplace-icon end
 -------------------------------*/
@@ -124,8 +118,6 @@ margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 22px;
-  
-
 }
 .popular-item{
     padding: 10px;
@@ -134,10 +126,7 @@ margin-top: 20px;
     align-items: center;
     border-radius: 10px;
     box-shadow: -1px 5px 5px grey;
-
 }
-    
-
 .collection{
     justify-content: center;
     align-items: center;
@@ -181,7 +170,6 @@ margin-top: 20px;
     left: 850px;
     font-weight: 600;
     font-size: 13px;
-    
 }
 .ok{
     margin-top: 2px;
@@ -201,13 +189,183 @@ margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+    margin-top: 60px;
+}
+.common-button2{
+    margin-top: 8px;
+    background-color: #E02C6D;
+    border: none;
+    padding: 8px 20px;
+    color: white;
+    box-shadow: 5px 5px 5px #f1a6c2;
+}
+.common-button2:hover{
+    transform: skew(30deg);
+    transition:  transform 2s ease ;
+    cursor: pointer;
 }
 .products-img img{
-    width: 400px;
-   height: 250px;
-   border-radius: 20px;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
 
 }
  /*-----------------------------
         Featured-products end
  -------------------------------*/
+/* -----------------------
+          footre start
+---------------------------*/
+.footer-area{
+    margin-top: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+.all-social-media li{
+    display: inline;
+    padding: 10px 5px;
+    font-size: 26px;
+}
+
+
+/* --------------------------
+            footre end
+-------------------------------- */
+@media  only screen and (max-width:488px){
+   body{
+    overflow-X:hidden;
+   }
+    .full-nav{
+        flex-direction: column;
+       
+    }
+    .right-side-nev ul{
+        flex-direction: row;
+    }
+    .top-article{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+      
+    }
+    .right-side-img img{
+        width: 240px;
+        height: 214px;
+        margin-left: 3px;
+        margin-top: 32px;
+        padding: 10px;
+    }
+    .right-side-img{
+        background-image: url("images/Circle\ design.svg");
+        background-repeat: no-repeat;
+        background-size: 270px;
+        margin-top: 20px;
+        }
+    .all-marketplace-icon{
+        flex-direction: column;
+        border:none;
+        box-shadow: none;
+    }
+    .section-title{
+        margin-bottom: 50px;
+        position: static;
+    }
+    .popular-collection{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 22px;
+    }
+    .more-option{
+        border: 1px solid #ffffff;
+        margin-top: 38px;
+        text-decoration: none;
+        color: #E02C6DDE;
+        display: inline-block;
+        position: relative;
+        left: 300px;
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        margin-top: 60px;
+    }
+    .products-img img{
+        width: 300px;
+        height: 250px;
+        border-radius: 20px;
+    
+    }
+    }
+    @media  only screen and (min-width:488px) and (max-width:790px){
+        body{
+            overflow-X:hidden;
+           }
+            .full-nav{
+                flex-direction: column;
+               
+            }
+            .right-side-nev ul{
+                flex-direction: row;
+            }
+            .top-article{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                align-items: center;
+              
+            }
+            .right-side-img img{
+                width: 240px;
+                height: 214px;
+                margin-left: 3px;
+                margin-top: 32px;
+                padding: 10px;
+            }
+            .right-side-img{
+                background-image: url("images/Circle\ design.svg");
+                background-repeat: no-repeat;
+                background-size: 270px;
+                margin-top: 20px;
+                }
+            .all-marketplace-icon{
+                flex-direction: column;
+                border:none;
+                box-shadow: none;
+            }
+            .section-title{
+                margin-bottom: 50px;
+                position: static;
+            }
+            .popular-collection{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 22px;
+            }
+            .more-option{
+                border: 1px solid #ffffff;
+                margin-top: 38px;
+                text-decoration: none;
+                color: #E02C6DDE;
+                display: inline-block;
+                position: relative;
+                left: 300px;
+                font-weight: 600;
+                font-size: 13px;
+            }
+            .products{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                align-items: center;
+                margin-top: 60px;
+            }
+            .products-img img{
+                width: 300px;
+                height: 250px;
+                border-radius: 20px;
+            
+            }
+    }
