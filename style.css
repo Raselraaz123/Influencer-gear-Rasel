@@ -1,0 +1,105 @@
+*{
+margin: 0;
+padding: 0;
+}
+/* -------------------
+navigation area start
+----------------------*/
+.full-nav{
+    padding: 90px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-side-nav{
+    font-weight: 700;
+    font-size: 24px;
+}
+.right-side-nev ul{
+display: flex;
+}
+.right-side-nev li{
+ margin-right: 20px; 
+list-style: none;
+font-weight: 600;
+font-size: 16px;
+}
+.right-side-nev  a{
+text-decoration: none;
+color: #3A3A3A;
+}
+/* ---------------------
+navigation area end
+------------------------- */
+/*----------------------
+      to top start
+----------------------- */
+.top-article{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 0px 70px;
+}
+.top-article-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: 
+    #3A3A3A;
+}
+.right-side-img{
+background-image: url("images/Circle\ design.svg");
+background-repeat: no-repeat;
+background-size: 370px;
+margin-top: 20px;
+}
+.right-side-img img{
+    width: 340px;
+    height: 314px;
+    margin-left: 3px;
+    margin-top: 32px;
+    padding: 10px;
+
+}
+/* --------------------
+           to top end 
+-------------------------*/
+
+.top-journey-area .new-marketplace-icon{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+/* ----------------------
+     marketplace-icon start
+ -------------------------*/
+
+
+.all-marketplace-icon{
+    display: flex;
+    margin-top: 50px;
+    border: .5px 0px solid grey;
+    box-shadow: 0px 0px 4px #8080802b;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.all-marketplace-icon img{
+    padding: 10px;
+
+}
+
+ /* -------------------------
+       marketplace-icon end
+-------------------------------*/
+
+/* ---------------------
+     collection start 
+-----------------------------*/
+
+/* --------------------------
+         collection end
+------------------------------- */
+.popular-item img{
+    width: 300px;
+    height: 256px;
+}
